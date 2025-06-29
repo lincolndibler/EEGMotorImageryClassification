@@ -1,21 +1,21 @@
-# EEGMotorImageryClassification
+# EEGEmotionRecognitionClassification
 
-# 🧠 EEG Motor Imagery Classification (BCI Competition IV-2a)
+# 🧠 EEG-Based Emotion Recognition
 
-This project explores the use of deep learning to classify motor imagery tasks from EEG signals. Using data from the BCI Competition IV-2a dataset, we aim to decode imagined movements (left hand, right hand, feet, tongue) and contribute to the development of non-invasive brain-computer interfaces.
+This project focuses on recognizing human emotions using EEG (electroencephalography) signals. By analyzing brainwave patterns, we aim to classify emotional states such as happiness, sadness, calmness, and excitement using deep learning models.
 
-## 🚀 Goals
-- Preprocess and visualize EEG signals
-- Train a CNN to classify motor imagery tasks
-- Evaluate model performance across subjects
-- Explore interpretability and real-world BCI applications
+## 🎯 Objectives
 
-📄 Dataset: [BCI Competition IV-2a](http://bnci-horizon-2020.eu/database/data-sets)
+- Preprocess EEG signals for emotion classification
+- Extract meaningful features from EEG data (e.g., frequency bands, entropy)
+- Train deep learning models to classify emotional states
+- Evaluate model performance using standard metrics (accuracy, F1-score, etc.)
+
 
 ## 📁 Project Structure
 
 ```
-eeg-motor-imagery/
+eeg-emotion-recognition/
 ├── data/             # Raw and preprocessed EEG files
 ├── notebooks/        # Jupyter notebooks for exploration
 ├── models/           # Model definitions (e.g., CNN, RNN)
