@@ -12,4 +12,16 @@ This project explores the use of deep learning to classify motor imagery tasks f
 
 📄 Dataset: [BCI Competition IV-2a](http://bnci-horizon-2020.eu/database/data-sets)
 
+
+eeg-motor-imagery/
+│
+├── data/                     # Raw and preprocessed EEG files
+├── notebooks/                # Jupyter notebooks for exploration
+├── models/                   # Model definitions
+├── utils/                    # Utility functions
+│   └── utils.py              # EEG loading, preprocessing, etc.
+├── main.py                   # Training script
+├── requirements.txt
+└── README.md
+
 ---
